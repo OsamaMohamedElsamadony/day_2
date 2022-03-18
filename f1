@@ -1,0 +1,6 @@
+Tell me how to remove them locally and remotely.
+
+
+remote  git push origin :branch_name
+
+locally git branch -d branch_name
