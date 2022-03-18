@@ -4,3 +4,12 @@ Tell me how to remove them locally and remotely.
 remote  git push origin :branch_name
 
 locally git branch -d branch_name
+
+Tell me how to list tags.
+
+git tag
+
+Tell me how to remove them locally and remotely.
+
+locally git tag -d v1.7
+remotely git push origin --delete v1.7
